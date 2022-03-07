@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Sixteen Clothing HTML Template</title>
+    <title>{{$title}}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{asset('prak2/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -40,31 +40,11 @@ https://templatemo.com/tm-546-sixteen-clothing
     </div>  
     <!-- ***** Preloader End ***** -->
 
-   
 
-    <!-- Page Content -->
-    <div class="container">
-    <div class="row">
-        <div class="col-12">
-           <!-- Header -->
-            @include('layouts.header')
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-    <div class="row">
-        <div class="col-2">
-          @include('layouts.sidebar')
-        </div>
-
-        <div class="col-10">
-          <main>
+    @include('layouts.header')
+    <main>
             @yield('content')
-          </main>
-        </div>
-      </div>
-    </div>
+     </main>
 
     <!-- footer -->
     @include('layouts.footer')

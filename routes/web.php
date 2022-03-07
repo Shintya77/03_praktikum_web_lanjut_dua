@@ -34,6 +34,6 @@ Route::prefix('/program')->group(function(){
     
 });
 Route::get('/about', function(){
-    return view('prak2.about');
+    return view('prak2.about',['title'=> 'About']);
 });
 Route::resource('/contact',PageController::class);

@@ -13,13 +13,13 @@
                 </a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link" href="{{url('produk')}}">Product</a>
+                <a class="nav-link" href="{{url('produk/p1')}}">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{url('news')}}">News</a>
+                <a class="nav-link" href="{{url('news/1')}}">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{url('program')}}">Program</a>
+                <a class="nav-link" href="{{url('program/program1')}}">Program</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{url('about')}}">About Us</a>
