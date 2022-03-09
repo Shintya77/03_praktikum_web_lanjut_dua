@@ -24,8 +24,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/home',[PageController::class, 'home']);
 Route::prefix('/produk')->group(function(){
-    Route::get('/p1', [PageController::class, 'produk']);
-    Route::get('/p2', [PageController::class, 'produk1']);
+    Route::get('/p1', [PageController::class, 'produk1']);
+    Route::get('/p2', [PageController::class, 'produk']);
 });
 Route::get('/news/{id}', [PageController::class, 'news']);
 Route::prefix('/program')->group(function(){
@@ -33,7 +33,5 @@ Route::prefix('/program')->group(function(){
         Route::get('program2',[PageController::class, 'program1']);
     
 });
-Route::get('/about', function(){
-    return view('prak2.about',['title'=> 'About']);
-});
+Route::get('/about', [PageController::class, 'about']);
 Route::resource('/contact',PageController::class);

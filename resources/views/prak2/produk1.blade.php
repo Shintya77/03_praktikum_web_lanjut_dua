@@ -32,7 +32,7 @@
                 <div class="row grid">
                     <div class="col-lg-4 col-md-4 all des">
                       <div class="product-item">
-                        <a href="#"><img src="assets/images/product_01.jpg" alt=""></a>
+                        <a href="#"><img src="{{asset('prak2/assets/images/product_01.jpg')}}" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Tittle goes here</h4></a>
                           <h6>$18.25</h6>
@@ -50,7 +50,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 all dev">
                       <div class="product-item">
-                        <a href="#"><img src="assets/images/product_02.jpg" alt=""></a>
+                        <a href="#"><img src="{{asset('prak2/assets/images/product_02.jpg')}}" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Tittle goes here</h4></a>
                           <h6>$16.75</h6>
@@ -68,7 +68,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 all gra">
                       <div class="product-item">
-                        <a href="#"><img src="assets/images/product_03.jpg" alt=""></a>
+                        <a href="#"><img src="{{asset('prak2/assets/images/product_03.jpg')}}" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Tittle goes here</h4></a>
                           <h6>$32.50</h6>
@@ -86,7 +86,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 all gra">
                       <div class="product-item">
-                        <a href="#"><img src="assets/images/product_04.jpg" alt=""></a>
+                        <a href="#"><img src="{{asset('prak2/assets/images/product_04.jpg')}}" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Tittle goes here</h4></a>
                           <h6>$24.60</h6>
@@ -104,7 +104,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 all dev">
                       <div class="product-item">
-                        <a href="#"><img src="assets/images/product_05.jpg" alt=""></a>
+                        <a href="#"><img src="{{asset('prak2/assets/images/product_05.jpg')}}" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Tittle goes here</h4></a>
                           <h6>$18.75</h6>
@@ -122,7 +122,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 all des">
                       <div class="product-item">
-                        <a href="#"><img src="assets/images/product_06.jpg" alt=""></a>
+                        <a href="#"><img src="{{asset('prak2/assets/images/product_06.jpg')}}" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Tittle goes here</h4></a>
                           <h6>$12.50</h6>
