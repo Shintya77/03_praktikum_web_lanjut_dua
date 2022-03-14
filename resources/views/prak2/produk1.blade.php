@@ -6,7 +6,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="text-content">
-              <h2>Halaman Product 2</h2>
+              <h2>Halaman Product 1</h2>
             </div>
           </div>
         </div>

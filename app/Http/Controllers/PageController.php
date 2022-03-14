@@ -9,11 +9,10 @@ class PageController extends Controller
 {
     public function home(){
         $data = produk::all();
-        return view('prak2.home',['title'=> 'Home'], ['isi'=> $data]);
+        return view('prak2.home',['title'=> 'Home','isi'=> $data]);
     }
     public function produk(){
-        $data = produk::all();
-        return view('prak2.produk',['title'=> 'Produk'], ['isi'=> $data]);
+        return view('prak2.produk',['title'=> 'Produk ']);
     }
     public function produk1(){
         return view('prak2.produk1',['title'=> 'Produk 1']);
